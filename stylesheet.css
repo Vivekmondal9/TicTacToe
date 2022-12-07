@@ -18,8 +18,8 @@
     #msg1,#msg2{
       font-size: 50px;
       font-family: 'Silkscreen', cursive;
-      color: #f22424;
-      text-shadow:5px 5px 7px black; ;
+      color: #2d8be3;
+      text-shadow:3px 3px 7px black; ;
     }
  body{
     display: flex;
