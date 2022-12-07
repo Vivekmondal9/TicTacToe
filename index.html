@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Inter&family=Lobster&family=Pacifico&family=Playfair+Display+SC:ital,wght@1,900&family=Roboto+Mono:wght@600&family=Silkscreen&family=Splash&family=Trispace:wght@300&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet.css">
+  <title>Document</title>
+  
+</head>
+
+<body onload="intialPage()">
+  <p id="msg1">Choose Symbol for Player 1:</p> <section id="btnsec"><button id="X" onclick="setSym('X')">X</button><button id="O"
+    onclick="setSym('O')">O</button></section>
+  <p id="msg2"></p>
+
+  <table id="board" style="margin:0px">
+    <tr>
+      <td><button id="1" onclick="show_sym('1')"></button></td>
+      <td><button id="2" onclick="show_sym('2')"></button></td>
+      <td><button id="3" onclick="show_sym('3')"></button></td>
+    </tr>
+    <tr>
+      <td><button id="4" onclick="show_sym('4')"></button></td>
+      <td><button id="5" onclick="show_sym('5')"></button></td>
+      <td><button id="6" onclick="show_sym('6')"></button></td>
+    </tr>
+    <tr>
+      <td><button id="7" onclick="show_sym('7')"></button></td>
+      <td><button id="8" onclick="show_sym('8')"></button></td>
+      <td><button id="9" onclick="show_sym('9')"></button></td>
+    </tr>
+  </table>
+
+  <!-- <button onclick="display()"> display state</button> -->
+
+
+
+
+  <script src="./javascript.js"></script>
+</body>
+
+</html>
